@@ -1,0 +1,28 @@
+.formDiv{
+    text-align: center;
+    background-color: rgba(194, 71, 40,0.3);
+    font-size: 25px;
+    padding: 30px;
+    margin : 0 auto;
+    margin-top: 100px;
+    width : 500px;
+}
+button {
+    margin-bottom:20px;
+    font-size: 30px;
+    border-radius: 8px;
+    border : none;
+}
+input {
+    text-align: center;
+    width : 60%;
+    font-size: 40px;
+    border-radius: 10px;
+     border: none;
+}
+.output {
+    font-size: 65px;
+    text-align: center;
+    text-shadow: 2px 3px 4px  rgb(92, 133, 129);
+
+}
