@@ -1,0 +1,20 @@
+.container {
+    margin : 0 auto;
+    text-align : center;
+    font-style: oblique;
+}
+ 
+p {
+    font-size: 55px;
+}
+h1 {
+    font-size: 45px;    
+}
+
+button {
+    margin-right: 35px;
+    border-radius : 7px;
+    font-size: 25px;
+    background-color:#e53935 ;
+    text-decoration: none;    
+}

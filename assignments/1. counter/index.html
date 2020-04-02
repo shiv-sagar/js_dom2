@@ -5,6 +5,55 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Basic Counter App</title>
+    <link rel = "stylesheet" href="./main.css">
   </head>
-  <body></body>
+  <body>
+    <div class = "container">
+      <h1>Counter App</h1>
+      <p class ="display">0</p>
+      <button class ="inc">increment</button>
+      <button class="dec">decrement</button>
+      <button class="reset">reset</button>
+  </div>
+
+  <script>
+      //selection
+
+      let display = document.querySelector("p");
+      let increment = document.querySelector(".inc");
+      let decrement = document.querySelector(".dec");
+      let reset = document.querySelector(".reset");
+
+
+      //adding event 
+
+      //after subscribing to click event  on buttons inc,dec and reset will call the funcions increase,decrease,reset respectively
+
+      increment.addEventListener("click",increase);
+      decrement.addEventListener("click",decrease);
+      reset.addEventListener("click",resettle);
+
+
+      //manipulation 
+
+
+      let count = 0
+      function increase(){
+          count += 1;
+          display.textContent = count;    
+      }
+
+      function decrease(){
+          count -= 1;
+          display.textContent = count;
+      }
+
+      function resettle(){
+          count = 0;
+          display.textContent = count;
+      }
+
+
+  </script>
+  </body>
 </html>
